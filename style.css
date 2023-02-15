@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+form{
+    width: 200vh;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightyellow;
+    text-align: center;
+    font-weight: 300;
+    color: #646F75;
+}
+.email_button{
+    display: flex;
+    margin-top: 20px;
+}
+button{
+    margin-left: 10px;
+    padding: 10px 35px;
+    background-color: red;
+    border: none;
+    color: aliceblue;
+}
+input{
+    display: block;
+    padding: 15px 130px 15px 15px;
+    border: none;
+    /* font-style: italic; */
+}
